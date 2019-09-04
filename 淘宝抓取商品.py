@@ -9,7 +9,7 @@ def getHTMLText(url):
     hd = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"}
     cookies = {
-        'cookie' : 'thw=cn; cna=pXC5FetwgH0CAXch6c/roNIS; t=8bbc7a0cb368ac33398437899128df75; cookie2=1be8d41aeae8a6f59ef4d2f91d9fbe7b; _tb_token_=b5b55677e739; tg=0; hng=CN%7Czh-CN%7CCNY%7C156; enc=CeH7RLay98NfQnSmyEVtc3e7gUMHsZ7vYxu3GuEGKUeMp9wOhSoBbmPL7fACBO2IHtoS8u2D4v53wc520oKC5Q%3D%3D; alitrackid=www.taobao.com; swfstore=254499; x=e%3D1%26p%3D*%26s%3D0%26c%3D0%26f%3D0%26g%3D0%26t%3D0%26__ll%3D-1%26_ato%3D0; _cc_=VFC%2FuZ9ajQ%3D%3D; JSESSIONID=D4D515FAD4A91D5F4256A0B7BE403BA0; lastalitrackid=login.taobao.com; whl=-1%260%260%261563599899542; v=0; unb=791623994; uc1=cookie16=WqG3DMC9UpAPBHGz5QBErFxlCA%3D%3D&cookie21=U%2BGCWk%2F7pY%2FF&cookie15=URm48syIIVrSKA%3D%3D&existShop=false&pas=0&cookie14=UoTaG7r6AP9icw%3D%3D&tag=8&lng=zh_CN; sg=04f; _l_g_=Ug%3D%3D; skt=5b97202b462f0ab7; cookie1=BvXkUpL1kafr8I4NZvUMeIYqcmhZPjcw6OIFnwiUaq0%3D; csg=a29b7b03; uc3=vt3=F8dBy3zcqY8cS%2BZXlw4%3D&id2=VAiW4T2jpvnC&nk2=F5RBxEAtA4HERdg%3D&lg2=URm48syIIVrSKA%3D%3D; existShop=MTU2MzU5OTkyMw%3D%3D; tracknick=tb412027_00; lgc=tb412027_00; dnk=tb412027_00; _nk_=tb412027_00; cookie17=VAiW4T2jpvnC; mt=ci=0_0&np=; isg=BGtrPkBGsoBN8e5UT754KP3H-o-VKH5l6WcELd3oR6oBfIveZVAPUgne1vy3x9f6; l=cBx0XRerq_BCSHu2BOCanurza77OSIRYYuPzaNbMi_5BK6T6fu_OkqWPWF96VjWdO28B4k6UXwp9-etkZ9MWI2IpXUJ1.'}
+        'cookie' : '登录后的cookie信息'}
     try:
         r = requests.get (url,headers=hd,cookies=cookies,timeout=10)
         r.raise_for_status()
